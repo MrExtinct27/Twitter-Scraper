@@ -40,9 +40,9 @@ def extract_hashtags(text):
 @st.cache_data
 def load_data():
     csv_files = [
-        "../social_media_posts_dakota_access_pipeline.csv",
-        "../social_media_posts_concophillips_willow_project.csv",
-        "../social_media_posts_texas_border_wall.csv"
+        "social_media_posts_dakota_access_pipeline.csv",
+        "social_media_posts_concophillips_willow_project.csv",
+        "social_media_posts_texas_border_wall.csv"
     ]
     dataframes = []
     for file in csv_files:
